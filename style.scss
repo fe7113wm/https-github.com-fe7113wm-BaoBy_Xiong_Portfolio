@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+$blue: #00ABE9;
+$white: #ffffff;
+$dark: #332E33;
+$black: #000000;
+$orange: #F7970C;
+
+$IBM: 'IBM Plex Sans', sans-serif;
+$IBW400: 400;
+$IBW400: 600;
+$IBW400: 700;
+
+body {
+  background-color: $blue;
+  height: 100vh;
+}body {
+  background-color: $blue;
+  height: 100vh;
+}
+
+nav {
+  background: $blue;
+  a.navbar-brand>img { 
+    width: 50px;
+  }
+  a.nav-link {
+color: $white;
+  }
+  .navbar-toggler {
+    border: 1px solid $white;
+  }
+  .navbar-toggler-icon {
+    background-color: $white;
+  }
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
