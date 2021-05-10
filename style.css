@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
+body {
+  background-color: #00ABE9;
+  height: 100vh;
+}
+
+body {
+  background-color: #00ABE9;
+  height: 100vh;
+}
+
+nav {
+  background: #00ABE9;
+}
+
+nav a.navbar-brand > img {
+  width: 50px;
+}
+
+nav a.nav-link {
+  color: #ffffff;
+}
+
+nav .navbar-toggler {
+  border: 1px solid #ffffff;
+}
+
+nav .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #00ABE9;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
