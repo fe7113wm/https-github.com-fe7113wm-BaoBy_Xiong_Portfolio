@@ -12,29 +12,41 @@ $IBW400: 600;
 $IBW400: 700;
 
 // --------------- BODY ----------------------
+
 body {
-  background-color: $blue;
-  height: 100vh;
-}body {
   background-color: $blue;
   height: 100vh;
 }
 // --------------- NAVIGATION ----------------------
 nav {
-  background: $blue;
-  a.navbar-brand>img { 
-    width: 50px;
-  }
-  a.nav-link {
-color: $white;
-  }
-  .navbar-toggler {
-    border: 1px solid $white;
-  }
-  .navbar-toggler-icon {
-    background-color: $white;
-  }
+  background-color: $blue;
 }
+
+.navbar-light .navbar-toggler {
+  color: $blue;
+  border-color: $blue;
+}
+
+.nav-link {
+  color: $white;
+}
+
+a.navbar-brand>img {
+  width: 50px;
+}
+
+.navbar-toggler {
+  border: 2px solid $white;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+border-color: $white;
+} 
 // --------------- PARALLAX SCROLL ----------------------
 // .parallax{
 //   background-image: url("Geometric_vector_moblie copy.png");

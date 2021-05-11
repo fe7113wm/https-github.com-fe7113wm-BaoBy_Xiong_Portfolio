@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
+body {
+  background-color: #00ABE9;
+  height: 100vh;
+}
+
 nav {
   background-color: #00ABE9;
 }
@@ -30,4 +35,18 @@ a.navbar-brand > img {
 .custom-toggler.navbar-toggler {
   border-color: #ffffff;
 }
-/*# sourceMappingURL=css.css.map */
+
+h1 {
+  color: #00ABE9;
+  text-align: center;
+}
+
+.bao {
+  padding: 20px 20px 20px 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
