@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
-body {
-  height: 100vh;
-}
-
 nav {
   background-color: #00ABE9;
 }
@@ -53,5 +49,9 @@ h2 {
 
 form {
   padding: 20px;
+}
+
+main {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
