@@ -14,9 +14,12 @@ $IBW400: 700;
 // --------------- BODY ----------------------
 
 body {
-  background-color: $blue;
   height: 100vh;
 }
+
+// --------------- SECTIONS ----------------------
+
+
 // --------------- NAVIGATION ----------------------
 nav {
   background-color: $blue;
@@ -62,15 +65,31 @@ border-color: $white;
 h1{
   color: $blue;
   text-align: center;
+  font-size: 38px;
+  font-weight:700;
 }
 
+h2{
+  font-size: 41px;
+  text-align: center;
+}
+
+// --------------- BUTTONS ----------------------
+
+
+// --------------- IMAGE ----------------------
 .bao{
   padding: 20px 20px 20px 20px;
 }
 
+// --------------- Form ----------------------
+form {
+  padding: 20px;
+}
 
 // --------------- FOOTER ----------------------
 footer {
   position: absolute;
   bottom: 0;
 }
+
