@@ -39,11 +39,13 @@ nav .navbar-toggler-icon {
   font-size: 36px;
 }
 
-\
-
 h1 {
   color: #00ABE9;
   text-align: center;
+}
+
+.bao {
+  padding: 20px 20px 20px 20px;
 }
 
 footer {
