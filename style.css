@@ -29,6 +29,16 @@ nav .navbar-toggler-icon {
   background-color: #ffffff;
 }
 
+.parallax {
+  background-image: url("Geometric_vector_moblie copy.png");
+}
+
+.scrollpage {
+  height: 1000px;
+  background-color: red;
+  font-size: 36px;
+}
+
 h1 {
   color: #00ABE9;
 }
