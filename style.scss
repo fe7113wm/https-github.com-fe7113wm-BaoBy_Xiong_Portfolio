@@ -11,6 +11,7 @@ $IBW400: 400;
 $IBW400: 600;
 $IBW400: 700;
 
+// --------------- BODY ----------------------
 body {
   background-color: $blue;
   height: 100vh;
@@ -18,7 +19,7 @@ body {
   background-color: $blue;
   height: 100vh;
 }
-
+// --------------- NAVIGATION ----------------------
 nav {
   background: $blue;
   a.navbar-brand>img { 
@@ -34,7 +35,7 @@ color: $white;
     background-color: $white;
   }
 }
-
+// --------------- PARALLAX SCROLL ----------------------
 .parallax{
   background-image: url("Geometric_vector_moblie copy.png");
 }
@@ -43,12 +44,15 @@ color: $white;
   height:1000px;
   background-color:red;
   font-size:36px
-}
+}\
 
+// --------------- FONTS/ TEXT ----------------------
 h1{
-  color: #00ABE9;
+  color: $blue;
+  text-align: center;
 }
 
+// --------------- FOOTER ----------------------
 footer {
   position: absolute;
   bottom: 0;
